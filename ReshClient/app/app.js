@@ -11,5 +11,5 @@ app.config(function ($routeProvider) {
 });
 
 app.constant('REST', {
-    'path': 'http://reshtest9079.azurewebsites.net/api/'
+    'path': 'http://reshserver.azurewebsites.net/'
 });
