@@ -1,0 +1,10 @@
+﻿
+    <h1>Search for unit by ID: </h1>
+    <form ng-submit="searchUnit()">
+        <p>Unit id: </p>
+        <input ng-model="searchUnit.unit_id" type="text">
+        <input type="submit" value="Search" ng-disabled="!searchUnit.unit_id">
+    </form>
+
+    <p class="info">{{status}}</p>
+<p>{{unit.Name}}</p>
